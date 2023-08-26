@@ -1,0 +1,13 @@
+name: book-recommendation-system
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas=1.2.4
+  - numpy=1.20.2
+  - scikit-learn=0.24.2
+  - jupyter=1.0.0
+  - matplotlib=3.7.1
+  - pip
+  - pip:
+    - Flask==1.1.2
